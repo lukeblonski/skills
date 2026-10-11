@@ -1,7 +1,5 @@
 # Skills
 
-Skills for AI assistants, made by Luke Błoński. A skill is a set of instructions the assistant reads when it needs them. They work in Claude and in other assistants that support skills.
-
 ## Skills
 
 | Skill | What it does |
