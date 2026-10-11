@@ -1,0 +1,13 @@
+{
+  "eval_id": 1,
+  "eval_name": "eval-1-no-problem-dark-mode",
+  "prompt": "We want to add dark mode to our invoicing app. Can you help me check if it's a good idea?",
+  "assertions": [
+    "Final recommendation is: not ready to evaluate / go back to the problem first (equivalent of 'Not ready yet'); it does NOT recommend building, and does NOT propose a demand test or experiment for dark mode",
+    "Names explicitly what is missing: a stated problem, a real person who had it recently, and a measurable number",
+    "Proposes the cheapest way to get them (look at existing tickets/requests for the word 'dark', ask a few users about the last time the screen bothered them)",
+    "Says plainly that 'people like dark mode' / 'it's standard now' is not evidence of a problem for this app's users",
+    "Asks at most two questions aimed at establishing the problem after the opening, then concludes; does not keep asking after the user has twice failed to name a problem",
+    "No untranslated method jargon (no 'MVP', 'riskiest assumption', 'desirability', 'product-market fit', 'hypothesis' without a plain-words explanation in the same sentence)"
+  ]
+}

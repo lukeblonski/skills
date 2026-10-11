@@ -1,0 +1,7 @@
+# local working material, not published
+knowledge/
+before-you-build-workspace/
+runs/
+*.bak*
+.DS_Store
+__pycache__/

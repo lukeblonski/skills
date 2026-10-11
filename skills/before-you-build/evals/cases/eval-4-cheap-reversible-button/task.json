@@ -1,0 +1,12 @@
+{
+  "prompt": "Our support team asked for a 'copy ticket link' button in the ticket header. Takes a day to build. Should we just do it?",
+  "expectations": [
+    "Final recommendation is: yes, build the small version and measure its use (equivalent of 'Ship a small version and measure')",
+    "The whole conversation is short: 5 exchanges or fewer before the recommendation",
+    "Recognises 'I watched two agents do it' as real observed behaviour, i.e. good evidence",
+    "Writes a concrete usage measure and a removal rule (e.g. used by at least K of 40 agents in week one, otherwise remove)",
+    "Mentions ongoing upkeep in at most one line",
+    "Does not ask about market size, strategy fit, business model, or a long list of assumptions",
+    "The final written recommendation is short (well under a page)"
+  ]
+}

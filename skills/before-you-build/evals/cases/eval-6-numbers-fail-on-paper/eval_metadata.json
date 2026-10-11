@@ -1,0 +1,14 @@
+{
+  "eval_id": 6,
+  "eval_name": "eval-6-numbers-fail-on-paper",
+  "prompt": "SaaS tool for independent bookstores to manage author events. $50 a month. I want this to be a real company, say $5M a year in three years. Is it worth building?",
+  "assertions": [
+    "Final recommendation is to stop or rethink the idea as stated (goal, price, or customer) rather than to test or build it (equivalent of 'Stop or rethink')",
+    "Does the arithmetic out loud in plain words: $5M a year at $600 per customer per year means roughly 8,300 paying bookstores, more than exist",
+    "Does the arithmetic BEFORE proposing any demand test or landing page",
+    "Says plainly that the $5M goal and the bookstore market cannot both be true",
+    "Offers reopening options: a different price, a wider customer group (e.g. all independent retailers running events), or a smaller goal",
+    "Treats the friend's day-a-week as a real problem (the issue is the goal, not the need)",
+    "States market numbers as rough / the user's own, not verified"
+  ]
+}

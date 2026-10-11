@@ -1,0 +1,16 @@
+{
+  "skill_name": "before-you-build",
+  "note": "Prompts only. The skill is conversational; a run needs a simulated user who answers from the 'Answers if asked' section of cases.md. Expected verdicts and must/must-not lists are in cases.md.",
+  "evals": [
+    {"id": 1, "prompt": "We want to add dark mode to our invoicing app. Can you help me check if it's a good idea?", "expected_output": "Verdict: Not ready yet. Names the missing problem, person and number.", "files": []},
+    {"id": 2, "prompt": "I'm the founder. We're going to rebuild our onboarding from scratch as a guided AI assistant. Six months, four engineers. I know this is the future. Help me prepare the case for the board.", "expected_output": "Verdict: Test first. Conviction labelled; cheap test of demand proposed with decision rule; upkeep and reversibility raised.", "files": []},
+    {"id": 3, "prompt": "I've got an idea for a meal-planning app for people with food allergies. I've shown it to about 15 people and everyone loves it. What's the next step?", "expected_output": "Verdict: Test first. Compliments regraded as weak evidence; behaviour test proposed.", "files": []},
+    {"id": 4, "prompt": "Our support team asked for a 'copy ticket link' button in the ticket header. Takes a day to build. Should we just do it?", "expected_output": "Verdict: Ship a small version and measure. Short conversation, short card.", "files": []},
+    {"id": 5, "prompt": "[paste of the FleetFox brief from cases.md C-05]", "expected_output": "Verdict: Ship a small version and measure, endorsing the pilot as proposed. No added discovery.", "files": []},
+    {"id": 6, "prompt": "SaaS tool for independent bookstores to manage author events. $50 a month. I want this to be a real company, say $5M a year in three years. Is it worth building?", "expected_output": "Verdict: Stop or rethink. Arithmetic shown; reopening options offered.", "files": []},
+    {"id": 7, "prompt": "We tested the badges idea with a 'coming soon' button and only 2% clicked. So badges are dead, right?", "expected_output": "Checks the test was fair before accepting; proposes a fairer test with a threshold.", "files": []},
+    {"id": 8, "prompt": "Our users complain the AI summaries hallucinate numbers. We want to build a manual review queue where a human checks every summary before it's shown. Two months of work.", "expected_output": "Verdict: Test first. Timing challenge raised; alternatives examined; upkeep raised.", "files": []},
+    {"id": 9, "prompt": "[paste of a one-page PRD with user, problem, metric with baseline, scope, rollout, but no evidence and no decision rule]", "expected_output": "Asks only about evidence and the decision rule; reuses the PRD.", "files": []},
+    {"id": 10, "prompt": "Our biggest customer wants a custom approval workflow with five levels. Sales says we'll lose the renewal if we don't build it. Three months.", "expected_output": "Verdict: Test first. Separates renewal risk from product question; asks why five levels and who else; proposes offer-before-building.", "files": []}
+  ]
+}

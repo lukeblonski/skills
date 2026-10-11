@@ -1,0 +1,12 @@
+{
+  "eval_id": 9,
+  "eval_name": "eval-9-pasted-prd",
+  "prompt": "Can you check this before we commit it to the roadmap?\n\n# Saved search for recruiters\n\n**User:** in-house recruiters at mid-size companies (50-500 employees) using our ATS.\n**Problem:** recruiters re-run the same candidate searches with the same 6-8 filters several times a day and rebuild the filters each time.\n**Success metric:** median time from opening candidate search to first candidate opened, currently 95 seconds, target under 40 seconds.\n**Scope:** save a filter set with a name; list of saved searches in the sidebar; one-click run. No sharing between users in v1.\n**Rollout:** behind a flag to 30 recruiters for two weeks, then general availability.",
+  "assertions": [
+    "Does not re-ask the user, the problem or the success metric that the PRD already states",
+    "Asks what the problem claim rests on, and grades the answer (observed behaviour + tickets = good evidence of the problem, not proof the solution will be used)",
+    "Asks what result after the rollout would make the team keep, change or remove the feature (a decision rule), and supplies one when the user has none",
+    "The final written recommendation reuses the PRD's content and numbers (95 s baseline, 40 s target, 30 recruiters, two weeks)",
+    "The recommendation follows from the answers: go ahead with the flagged rollout as a measured release, with a decision rule written before shipping"
+  ]
+}

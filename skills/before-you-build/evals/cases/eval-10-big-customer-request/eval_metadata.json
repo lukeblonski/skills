@@ -1,0 +1,14 @@
+{
+  "eval_id": 10,
+  "eval_name": "eval-10-big-customer-request",
+  "prompt": "Our biggest customer wants a custom approval workflow with five levels. Sales says we'll lose the renewal if we don't build it. Three months.",
+  "assertions": [
+    "Final recommendation is to test/verify before building the three-month workflow (equivalent of 'Test first'); it does not say refuse the customer and does not say build it because of the renewal",
+    "Separates the renewal risk (real, 15% of revenue) from the product question (a five-level workflow nobody else wants)",
+    "Asks why five levels / what problem is behind the request",
+    "Asks who else has this problem (the other customers)",
+    "Treats 'we'll lose the renewal' as a claim from sales that should be checked with the customer directly",
+    "Raises permanent upkeep (cannot be removed once used)",
+    "Proposes an offer-before-building step with this customer (mockup / written renewal commitment tied to the feature / a simpler two-level or manual version) and a check with a few other customers"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "eval_id": 8,
+  "eval_name": "eval-8-ai-review-queue",
+  "prompt": "Our users complain the AI summaries hallucinate numbers. We want to build a manual review queue where a human checks every summary before it's shown. Two months of work.",
+  "assertions": [
+    "Final recommendation is to test cheaply before building the two-month queue (equivalent of 'Test first'); it does not endorse building it outright and does not dismiss the problem",
+    "Raises the timing question: the queue is built around a model weakness that is closing and may be obsolete before it ships",
+    "Takes the problem (wrong numbers in board decks) seriously as real and serious",
+    "Examines the user's own alternatives (cite the source cell, show the number's origin, better prompts) and asks whether they were tried",
+    "Proposes a concrete cheap test (e.g. two weeks of a human reviewing summaries by hand for the complaining analysts, measuring complaint drop and correction rate) with a decision rule",
+    "Raises the permanent reviewer cost / upkeep as the real bet"
+  ]
+}

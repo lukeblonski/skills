@@ -1,0 +1,12 @@
+{
+  "prompt": "We tested the badges idea with a 'coming soon' button and only 2% clicked. So badges are dead, right?",
+  "expectations": [
+    "Does not agree that badges are dead",
+    "Checks whether the test was fair: the plain button stripped out everything attractive about badges, was in the wrong place/moment (bottom of settings), and no threshold was set",
+    "Says 2% cannot be judged as a pass or fail because no threshold was set beforehand",
+    "Proposes a fairer test that keeps the appeal (e.g. a mockup of a real badge shown at the moment it would be earned) with a threshold set before running it",
+    "Asks the user to guess the number before setting the threshold",
+    "Does not say 2% is fine",
+    "Does not recommend building badges now"
+  ]
+}

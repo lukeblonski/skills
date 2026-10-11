@@ -1,0 +1,14 @@
+{
+  "eval_id": 3,
+  "eval_name": "eval-3-friends-as-evidence",
+  "prompt": "I've got an idea for a meal-planning app for people with food allergies. I've shown it to about 15 people and everyone loves it. What's the next step?",
+  "assertions": [
+    "Final recommendation is to run a behaviour test before building (equivalent of 'Test first'); it does not say 'go build it' and does not say the idea is bad",
+    "Regrades '15 people love it' as weak evidence (reaction to a mockup, from friends/family who are not the customer), and says so kindly rather than dismissively",
+    "Treats the sister's hour a week as one real instance of the problem",
+    "Proposes a test that observes what people DO (e.g. landing page with deposit/pre-order, or a hand-run meal-planning service for a few allergy sufferers found outside family) with a numeric threshold written before the test",
+    "Asks the user for their own guess of the test result before setting the threshold",
+    "Does not propose another round of showing mockups to people as the next step",
+    "Flags that 'none for allergies' needs checking before it counts as an advantage"
+  ]
+}

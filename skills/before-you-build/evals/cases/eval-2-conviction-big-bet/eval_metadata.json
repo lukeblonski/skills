@@ -1,0 +1,15 @@
+{
+  "eval_id": 2,
+  "eval_name": "eval-2-conviction-big-bet",
+  "prompt": "I'm the founder. We're going to rebuild our onboarding from scratch as a guided AI assistant. Six months, four engineers. I know this is the future. Help me prepare the case for the board.",
+  "assertions": [
+    "Final recommendation is to run a cheap test of demand/effect before committing the six-month build (equivalent of 'Test first'); it does not endorse the build on conviction alone and does not call the idea bad",
+    "Explicitly labels the founder's certainty ('I know this is the future', 'my gut') as conviction/belief, not evidence, and labels the conference remark as one anecdote",
+    "Raises permanent upkeep and that the change is hard to undo and forced on every new customer",
+    "Asks why fixing the current flow is a dead end (i.e. challenges the dismissed alternative)",
+    "Proposes a specific cheap test that keeps a real guided experience (e.g. humans doing the assistant's work behind the scenes for a small cohort) with a decision rule written against the 30% activation baseline before the test runs",
+    "Raises whether the feature gets better as AI models improve or is a workaround for today's weaknesses (the AI timing question)",
+    "Asks what result would change the founder's mind",
+    "Stays within 12 exchanges"
+  ]
+}
