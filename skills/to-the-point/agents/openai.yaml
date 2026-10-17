@@ -1,0 +1,4 @@
+interface:
+  display_name: "to-the-point"
+  short_description: "Turn rough product ideas into a coherent concept"
+  default_prompt: "Use $to-the-point to help me turn my rough idea and notes into a coherent product concept through conversation."
