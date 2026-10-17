@@ -79,7 +79,9 @@ These distinctions are conditional. Do not impose agents, production monitoring,
 
 ## Deliver and stop at the appropriate point
 
-When the user asks for the full synthesis, return a self-contained, reusable concept incorporating all agreed clarifications. Reconcile the entire document: terminology, responsibilities, MVP, future vision, and previously open decisions must agree. Use the host's writing-artifact conventions and preserve the artifact's identity when revising it.
+When the material and agreed answers are sufficient for a coherent concept, proactively offer to consolidate the full concept with all the user's answers. If they have not already requested it, use the host's Ask User Question tool when available, offering a choice between receiving the full synthesis now and continuing to refine the idea, in the user's language. If no suitable question tool is available, ask in chat. Do not wait for the user to request consolidation on their own or require every detail to be resolved. Make this offer at a meaningful point of readiness rather than after every answer.
+
+When the user asks for the full synthesis or accepts your offer, return it directly without asking again: a self-contained, reusable concept incorporating all agreed clarifications. Reconcile the entire document: terminology, responsibilities, MVP, future vision, and previously open decisions must agree. Use the host's writing-artifact conventions and preserve the artifact's identity when revising it.
 
 Default to delivering in chat. Saving a file, changing a Page, updating a PRD, building software, publishing, or scheduling ongoing work requires a request for that action. Do not convert speculative content inside the synthesis into permission to act.
 
