@@ -65,12 +65,12 @@ Draft five to eight statements. Write each as one positive sentence about a spec
 
 Not every idea needs all five. A small internal tool needs one and three. A paid product needs one and two before anything else.
 
-Then for each statement, two questions:
+For each statement, draft your assessment before asking the user anything:
 
-- "If this turned out to be false, would the idea die, or just get smaller?" Why: only the ones that kill the idea are worth testing now.
-- "What do you already know about this, and how do you know it?" Grade the answer on the ladder in `evidence.md` and say the grade.
+- **Consequence if false:** would the idea die, or just get smaller? Why: only the ones that kill the idea are worth testing now.
+- **Existing evidence:** what supports the statement, and how was it obtained? Grade it on the ladder in `evidence.md` and say the grade.
 
-Pick the one or two that would kill the idea and rest on the weakest evidence. Say which ones and why. Everything else waits for a later round.
+Follow the numbered-list and explicit-priority procedure in [step 4 of the main instructions](../SKILL.md#4-what-must-be-true). Present the assessment in one exchange, invite corrections, and ask only about missing evidence for the statements you identify by number and short name. Explain why you recommend checking them first in relation to the user's goal. Make clear whether the answer could change that recommendation or help choose how to test it. Everything else waits for a later round.
 
 **The kill assumption.** In nearly every idea it is demand: if you build it right, will enough people want it? Ask this even when the user is sure, and especially when the user is the one who will build it. People who are good at building are fooled by the buildable part; it feels like progress.
 

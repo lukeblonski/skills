@@ -72,9 +72,17 @@ This decides the path:
 
 Draft the list yourself: five to eight statements that must be true for the idea to work. Cover, in this order of importance: people want it enough to change what they do today; the company can make it pay (sell it, support it, afford it); it can be built with the people and technology at hand; people can use it without help; it harms nobody. Write each as a single positive sentence about a specific group ("fleet managers will prepare the inspection list inside the product instead of exporting to a spreadsheet").
 
-Do this in **one exchange**. Show the list with your own guesses already filled in: for each statement, whether the idea would die or merely shrink if it were false, and what the user has said so far that counts as evidence, with its grade. Then ask only two things: "What is wrong in this list?" and "For the top two, what do you actually know, and how?" Do not walk through the statements one by one; that is twelve questions and nobody finishes.
+Do this in **one exchange**. Show a numbered list with your own assessment already filled in: for each statement, whether the idea would die or merely shrink if it were false, and what evidence supports it, with its grade.
 
-Fold the guess for the coming test into this same exchange, so it never costs a turn of its own: "If we checked the first one with ten people from [group], how many do you think would [action]?" You already know roughly what the test will be. If the user says they don't know, do not ask again; set the threshold from the goal in the next turn and write "no guess given" on the card.
+Explicitly recommend one or two statements to check first. Identify each by number and short name. Explain why each deserves priority, based on the user's stated goal, the consequence of being wrong, and the weakness of the available evidence. Make clear that this is your recommendation.
+
+Distinguish **what to check** from **how to check it**. Before asking a follow-up question, make clear which decision remains open and how the answer could change the next step. If you have proposed a statement to check but have not chosen a test, say so.
+
+Then ask what is wrong or missing in the list and, where needed, what evidence the user has for the specifically named statements. When asking about earlier evidence, explain whether it could change the proposed priority, help choose the test, or make repeating a test unnecessary.
+
+Use specific names in questions rather than phrases such as "the top two" or "the first one". Keep related questions together; do not walk through the statements one by one.
+
+Fold the guess for the coming test into this same exchange, so it never costs a turn of its own: "If we checked [number and short name] with ten people from [group], how many do you think would [action]?" You already know roughly what the test will be. If the user says they don't know, do not ask again; set the threshold from the goal in the next turn and write "no guess given" on the card.
 
 For paid products, do the quick arithmetic from `references/steps.md` here, before any test: minimum success in three years → customers needed → people to reach → do that many exist. If the numbers fail on paper, the verdict is **Stop or rethink** and no test is needed. For a feature inside an existing product, the arithmetic is simpler: does the gain the goal names plausibly pay back the build and upkeep cost; if the user has no numbers, say so in one line and move on.
 
