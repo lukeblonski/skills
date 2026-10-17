@@ -2,6 +2,8 @@
 
 Fill from the conversation. Written for someone who was not in the room. Omit any section that does not apply; never write "none". Keep it to one page.
 
+**Required output structure:** use the idea's name as the card title. Preserve the selected variant's section headings and order, applicable fields, and table columns. Headings and labels may be translated into the user's language while preserving their meaning. Omit or replace sections only as permitted by the variant and conditional instructions below.
+
 Two sizes. The **short card** is for the short path (cheap, reversible, ignorable changes, and ideas that arrived with behaviour evidence and a decision rule): verdict, the idea in plain words, the measured release, what to do on Monday. Nothing else. The **full card** adds the table of what must be true and the evidence/conviction split. A short-path idea that gets a full card has been over-grilled.
 
 ---

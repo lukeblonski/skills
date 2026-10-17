@@ -129,6 +129,8 @@ Give the verdict first, one of four, then the card from `templates/idea-card.md`
 - **Ship a small version and measure** — cheap, reversible, ignorable, or already backed by real behaviour. The card carries the release plan with the prediction and decision rule.
 - **Stop or rethink** — the numbers cannot add up even on paper, a kill assumption has already been shown false, or the company has no strength in what the idea needs. Say why in one paragraph, and say what change to the idea would reopen it.
 
+**Always generate the card from the template.** Before generating or revising a card, read `templates/idea-card.md` and select the short or full variant for the chosen path. Follow its required structure and conditional instructions. A free-form summary or standalone test plan does not replace the card. Before sending, compare the draft with the selected template and correct missing or reordered required sections, fields, and table columns. Only say the card follows the template after this check.
+
 End the card with "What to do on Monday": who does what, by when, and what result means go, stop, or one more round.
 
 ## After a test, if they come back

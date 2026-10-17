@@ -86,7 +86,7 @@ See `tests.md`. Before proposing, ask the user: "What do you think the result wi
 
 ## Stage 6. Verdict
 
-Lead with the verdict. One sentence of reason. Then the card. Do not restate the whole conversation. The card is for someone who was not in the room.
+Lead with the verdict. One sentence of reason. Then generate the card using the selected variant of [the required template](../templates/idea-card.md) and perform the conformity check in [step 6 of the main instructions](../SKILL.md#6-verdict-and-card). Do not restate the whole conversation. The card is for someone who was not in the room.
 
 ## Longer question list for big bets
 
