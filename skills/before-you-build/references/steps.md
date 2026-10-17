@@ -78,6 +78,8 @@ Follow the numbered-list and explicit-priority procedure in [step 4 of the main 
 
 The "one in a hundred" rule is for large markets. When the whole market is a few thousand firms, ask instead what share of them could plausibly be won in three years: a tenth is ambitious, a third is exceptional. Use that to check the goal. For a feature inside an existing product, ask only whether the gain named in the goal plausibly pays back the build and upkeep cost.
 
+Before moving to test design, close the questioning round with the brief synthesis, reasoned priority recommendation, and explicit next-step announcement described in [step 4 of the main instructions](../SKILL.md#4-what-must-be-true). Incorporate the answers just collected. End the questioning once enough is known to recommend the next step.
+
 ## Stage 5. The cheapest test
 
 See `tests.md`. Before proposing, ask the user: "What do you think the result will be?" and get a number. Their guess, written down, is the start of the threshold and protects against moving the goalposts.

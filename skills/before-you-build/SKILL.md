@@ -92,6 +92,14 @@ Grade the evidence out loud. The one or two statements that would kill the idea 
 
 Watch for the kill assumption. In almost every idea it is demand: if we build it well, will enough people want it? Ask that question even if the user is sure.
 
+**Close the questioning round before designing the test.** Stop asking once there is enough information to recommend the next step. Give a brief synthesis that incorporates the answers just collected:
+
+1. **What we know and what remains uncertain:** summarize whether people want it, whether it is worthwhile and sustainable for the user's goal, and whether it can be built. Distinguish evidence from beliefs and unknowns.
+2. **What to check first and why:** update your proposed priority using those answers. Name one or two statements by number and short name, and explain the choice using the confirmed goal, the consequences of being wrong, and the weakness of the evidence.
+3. **What happens next:** explicitly announce the transition, for example: "I propose checking [number and short name] first because [reason]. Next, we will design a test of that statement."
+
+Keep this synthesis short and reflect what the answers changed. It is a transition within the conversation; do not add a mandatory confirmation round solely for the recap. The transition and test design may be in the same response when no further answer is needed. If the evidence already settles a verdict without a test, go directly to that verdict.
+
 ### 5. The cheapest test, with the decision written first
 
 Read `references/tests.md` for the catalogue and the thresholds. Propose one test for the one or two statements from step 4. Prefer tests that observe what people do over tests that ask what they think. Prefer tests that take hours or days over tests that take weeks. Make the test keep whatever is attractive about the idea; a stripped-down test that removes the appeal gives a false "no".
