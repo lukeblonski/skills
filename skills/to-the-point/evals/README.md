@@ -2,7 +2,7 @@
 
 These scenarios check whether the assistant helps clarify a product concept while preserving the user's intent and keeping the conversation proportionate.
 
-The six cases are in [`cases.md`](cases.md). Evaluate meaning and decisions rather than exact phrases, a fixed number of turns, or a particular set of headings.
+The eight cases are in [`cases.md`](cases.md). Evaluate meaning and decisions rather than exact phrases, a fixed number of turns, or a particular set of headings.
 
 ## Keep expected behavior away from the assistant
 
@@ -23,4 +23,6 @@ For a useful comparison, run the same case in a fresh conversation without the s
 
 ## Current status
 
-The scenarios are evaluation specifications. No independent model runs or pass-rate measurements are included in this addition.
+A local run on 2026-10-17 covered the six original scenarios and two additional cases. The [report](results/2026-10-17/report.md) records the procedure, outcomes, limitations, and links to the actual prompts and responses. Evaluated assistants received the runtime skill without this folder; a separate reviewer received the criteria and completed transcripts.
+
+These are single-run observations, not a pass-rate measurement or evidence that the skill improves on an unassisted baseline. Routing was checked using the skill descriptions; it did not execute the implementation or investment-assessment tasks. No external services were changed.

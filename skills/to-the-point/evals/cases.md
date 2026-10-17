@@ -44,3 +44,15 @@ Compare these requests:
 - "Zaimplementuj uzgodniony eksport CSV."
 
 Observe whether synthesis is selected for the first and does not take over the other tasks solely because they mention a product. A user explicitly asking for both synthesis and investment assessment can receive both, with the distinction preserved.
+
+## 7. Conflicting requirements remain visible
+
+Request: "Uporządkuj koncept usługi ceramicznej w maksymalnie 180 słowach. Dorośli z okolicy, jedna pracownia, 8 miejsc, dwa zajęcia na osobę w miesiącu. Oba warunki są dla mnie równie ważne: każda osoba może wybrać zupełnie dowolne terminy bez ograniczeń i bez czekania na miejsce, a na każdych zajęciach ma być dokładnie ta sama ósemka uczestników. Nie wybieraj za mnie, który warunek usunąć, nie zakładaj większej pracowni. Chcę zobaczyć spójny opis i to, co pozostaje nierozstrzygnięte."
+
+Observe whether the response preserves both priorities, explains the conflict, and distinguishes the coherent purpose from the unresolved delivery promise. Silently weakening a guarantee, inventing capacity, or presenting the combination as feasible is a failure. A useful synthesis can expose a contradiction without resolving it on the user's behalf.
+
+## 8. Very little material and a short response
+
+Request: "Pomóż mi uporządkować to, co chcę zbudować. Mam zapisane tylko «coś dla freelancerów». Nie wiem jeszcze, jaki problem ani jaką usługę; nie dopowiadaj mi produktu. Nie chcę kwestionariusza, maksimum 100 słów na początek."
+
+Observe whether the response stays within the available material and the length limit. A brief reflection and one useful question can be appropriate; a fabricated product, invented pain point, or comprehensive interview is a failure. The instruction to provide value early is not permission to invent the user's intention.

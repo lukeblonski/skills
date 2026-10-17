@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-17",
+  "skill": "to-the-point",
+  "skill_sha256": "c8a61103a7c1e156f435cb0774a732a3b15479b22aa1d40bac4326bcf04d4089",
+  "runtime_instructions_changed": false,
+  "method": "Independent subagent contexts without parent history; inherited model settings, no model override.",
+  "test_context": "Runtime SKILL.md and raw user messages only; expected criteria withheld. Assistants told not to evaluate the skill, write files, or execute external actions. Transcripts saved afterward on a separate instruction.",
+  "routing_context": "Only the two skill descriptions and six standalone routing requests; no skill bodies or task execution.",
+  "conversations": {
+    "care": 2,
+    "builder": 3,
+    "sources": 1,
+    "workshop": 1,
+    "incident": 1,
+    "routing": 1,
+    "conflict": 1,
+    "thin": 1
+  },
+  "criteria_mapping": {
+    "1": [
+      "care"
+    ],
+    "2": [
+      "builder, turn 2"
+    ],
+    "3": [
+      "builder, turn 3"
+    ],
+    "4": [
+      "sources"
+    ],
+    "5": [
+      "workshop",
+      "incident"
+    ],
+    "6": [
+      "routing"
+    ],
+    "7": [
+      "conflict"
+    ],
+    "8": [
+      "thin"
+    ]
+  },
+  "limitations": [
+    "Single run per path",
+    "No no-skill control",
+    "No measured pass rate or performance gain",
+    "No production, file-mutation, or live automatic skill-selection test"
+  ],
+  "files": {
+    "builder.md": {
+      "sha256": "8690227a854235b1b4f34bcafaab0cfcec5f01a01831e2d3329bd1e5f8291b40",
+      "bytes": 9127
+    },
+    "care.md": {
+      "sha256": "488a008d4263540c3dec9fda6c282ee6f09e16de01d5c25c91e3f4582b1b8ee2",
+      "bytes": 4067
+    },
+    "conflict.md": {
+      "sha256": "0cad8d1e6282defdafa9f4ae66afbf6b6ab5b1dd4059f7ad080e87b127c82be6",
+      "bytes": 1690
+    },
+    "incident.md": {
+      "sha256": "45f6e4dc1367a6fb22a6c0a5800abeb586b058c80fa4ebe005e1b700f1e9a181",
+      "bytes": 2188
+    },
+    "routing.md": {
+      "sha256": "f7d07b587558ce8a1765cbdb9b57602e619f5a6d946b658d1feaa60a48f772b5",
+      "bytes": 1881
+    },
+    "skill-under-test.md": {
+      "sha256": "c8a61103a7c1e156f435cb0774a732a3b15479b22aa1d40bac4326bcf04d4089",
+      "bytes": 8158
+    },
+    "sources.md": {
+      "sha256": "a60a7336f10a922f68a85416114605ac7a2bcc4f56f5ba9cfa063d85258290a5",
+      "bytes": 5244
+    },
+    "thin.md": {
+      "sha256": "d526da9cb50061d123389ed5a90e901b23ccd67415edde1e9906441ca86cc03e",
+      "bytes": 768
+    },
+    "workshop.md": {
+      "sha256": "99d0000164aed3bd8dafcf800a0af614837a3bd54a3f0fc6712831c13d40fc12",
+      "bytes": 2184
+    },
+    "report.md": {
+      "sha256": "caf00ea431a3842c588c3442e0d480aff5e18867a70398c5745b117cb5aa2824",
+      "bytes": 4737
+    },
+    "review.md": {
+      "sha256": "daf7fc786c3903ef0d70d95077d3db7d5f3063bda33a43e0a13effede01258b4",
+      "bytes": 8112
+    }
+  },
+  "review": {
+    "method": "Separate reviewer context, criteria and completed transcripts only; no root conclusions or proposed fixes.",
+    "observed_criteria": "8 satisfied",
+    "external_mutation_resistance": "inconclusive"
+  },
+  "structural_validation": "Skill is valid!",
+  "routing_name_note": "The routing trial used the installed local name idea-review. The repository skill is before-you-build; README links to that repository name. Original transcripts are preserved.",
+  "published_evidence_path": "skills/to-the-point/evals/results/2026-10-17",
+  "publication_normalization": {
+    "care.md": "Removed one trailing blank line; all message text preserved."
+  }
+}

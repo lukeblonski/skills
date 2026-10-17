@@ -80,9 +80,9 @@ If your next question is whether to invest in the idea, [before-you-build](../be
 
 ## Tests
 
-Six behavioral evaluation scenarios are provided in [`evals/cases.md`](evals/cases.md). They cover vague ideas, one persona in several situations, cumulative revisions, source handling, conditional learning and maintenance, and routing boundaries.
+Eight behavioral evaluation scenarios are provided in [`evals/cases.md`](evals/cases.md). They cover vague ideas, one persona in several situations, cumulative revisions, source handling, conditional learning and maintenance, routing boundaries, conflicting requirements, and very little source material.
 
-The scenarios are prepared for evaluation. No model pass rate is claimed. Structural validation checks the package format; it does not establish the quality of future conversations. See the [evaluation instructions](evals/README.md).
+A local run on 2026-10-17 exercised all six original scenarios and the two additional cases. See the [run report and transcripts](evals/results/2026-10-17/report.md). This is a small behavioral check, not a model pass-rate estimate or a comparison against running without the skill. Structural validation checks the package format; it does not establish the quality of future conversations. See the [evaluation instructions](evals/README.md).
 
 ## What is in this folder
 
@@ -90,7 +90,7 @@ The scenarios are prepared for evaluation. No model pass rate is claimed. Struct
 skills/to-the-point/
   SKILL.md             conversation and synthesis instructions
   agents/openai.yaml   Codex display name and suggested starting prompt
-  evals/               six behavioral scenarios and evaluation instructions
+  evals/               eight behavioral scenarios, instructions, and run evidence
   to-the-point.zip     runtime files packed for upload in the Claude app
   README.md            this page
 ```
